@@ -29,3 +29,30 @@ By following these steps, you can easily customize the Jenkins pipeline for your
 - Paste the content of this repo Jenkinsfile in it
 - Save the job configuration.
 - Click on "Build now"
+
+## DVC Setup
+
+
+```
+pip install dvc
+```
+
+```
+dvc init
+```
+
+```
+dvc add models/finetune-model.pt
+```
+
+```
+dvc commit
+```
+
+```
+dvc push
+```
+
+```
+git push
+```
