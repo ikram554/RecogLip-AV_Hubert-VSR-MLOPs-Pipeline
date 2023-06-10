@@ -1,7 +1,6 @@
-# File: model_evaluation.dvc
 stages:
-  evaluate_model:
-    cmd: python evaluate_model.py
+  predict_model:
+    cmd: python av_hubert.py
     deps:
       - models/finetune-model.pt
     outs:
