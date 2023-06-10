@@ -627,3 +627,5 @@ File Path                                                                       
 ================================================================================
 [2023-06-10 23:40:46,525] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
 [2023-06-10 23:40:46,528] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2023-06-10 23:35:46.528024+00:00
+[2023-06-10 23:40:56,557] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2023-06-10 23:40:56,560] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2023-06-10 23:35:56.560309+00:00
