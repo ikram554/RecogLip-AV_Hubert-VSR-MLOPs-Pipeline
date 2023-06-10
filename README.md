@@ -21,6 +21,26 @@ If you're considering using the Jenkins pipeline, please keep in mind the follow
 - Finally, ensure that you update the "registry" field to match the URL for your own DockerHub repository.
 By following these steps, you can easily customize the Jenkins pipeline for your own purposes.
 
+## Apache Airflow Installation
+- Install Docker and Docker Compose
+- Linux
+```
+curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.6.1/docker-compose.yaml'
+```
+- Windows
+```
+Invoke-WebRequest -Uri "https://airflow.apache.org/docs/apache-airflow/2.0.2/docker-compose.yaml" -OutFile docker-compose.yaml
+```
+- Initilize docker compose
+```
+docker compose up airflow-init 
+```
+- Run
+```
+docker compose up -d
+```
+
+
 ## Run Jenkinsfile
 - Install Jenkins
 - Once Jenkins is installed, access it through your web browser by visiting http://localhost:8080 
