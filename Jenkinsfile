@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Cloning Git') {
             steps {
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/ikram554/RecogLip-AV_Hubert-VSR-MLOPs-Pipeline.git', dir: 'AV_HUBERT_WINDOWS']])
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/ikram554/RecogLip-AV_Hubert-VSR-MLOPs-Pipeline.git']])
             }
         }
     
