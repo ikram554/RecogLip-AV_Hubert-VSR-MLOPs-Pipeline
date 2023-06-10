@@ -1,0 +1,8 @@
+# File: model_evaluation.dvc
+stages:
+  evaluate_model:
+    cmd: python evaluate_model.py
+    deps:
+      - models/finetune-model.pt
+    outs:
+      - results/prediction.txt
