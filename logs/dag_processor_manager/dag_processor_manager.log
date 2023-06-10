@@ -1142,3 +1142,7 @@ File Path                                          PID  Runtime      # DAGs    #
 /opt/airflow/dags/recog_dag.py                     333  0.00s             1           0  0.10s           2023-06-10T23:57:20
 /opt/airflow/dags/recog_multi_downstream_dag.py                           1           0  0.10s           2023-06-10T23:57:48
 ================================================================================
+[2023-06-10 23:58:00,715] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2023-06-10 23:58:00,721] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2023-06-10 23:53:00.721241+00:00
+[2023-06-10 23:58:10,750] {dag_processing.py:1092} INFO - Finding 'running' jobs without a recent heartbeat
+[2023-06-10 23:58:10,754] {dag_processing.py:1096} INFO - Failing jobs without heartbeat after 2023-06-10 23:53:10.754634+00:00
