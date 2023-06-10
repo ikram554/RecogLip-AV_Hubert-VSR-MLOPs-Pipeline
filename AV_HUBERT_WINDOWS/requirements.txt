@@ -1,0 +1,10 @@
+scipy
+sentencepiece
+python_speech_features
+scikit-video
+dlib
+opencv-python
+numpy
+sk-video
+tqdm
+fairseq
