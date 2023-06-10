@@ -1,0 +1,71 @@
+[2023-06-10 23:50:47,567] {scheduler_job.py:182} INFO - Started process (PID=166) to work on /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:50:47,572] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/recog_dag.py for tasks to queue
+[2023-06-10 23:50:47,575] {logging_mixin.py:104} INFO - [2023-06-10 23:50:47,575] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:50:47,683] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_processing_workflow']) retrieved from /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:50:47,744] {logging_mixin.py:104} INFO - [2023-06-10 23:50:47,744] {dag.py:1824} INFO - Sync 1 DAGs
+[2023-06-10 23:50:47,776] {logging_mixin.py:104} INFO - [2023-06-10 23:50:47,775] {dag.py:1843} INFO - Creating ORM DAG for data_processing_workflow
+[2023-06-10 23:50:47,796] {logging_mixin.py:104} INFO - [2023-06-10 23:50:47,796] {dag.py:2280} INFO - Setting next_dagrun for data_processing_workflow to 2023-06-01T00:00:00+00:00
+[2023-06-10 23:50:47,829] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/recog_dag.py took 0.266 seconds
+[2023-06-10 23:51:17,921] {scheduler_job.py:182} INFO - Started process (PID=171) to work on /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:51:17,923] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/recog_dag.py for tasks to queue
+[2023-06-10 23:51:17,925] {logging_mixin.py:104} INFO - [2023-06-10 23:51:17,925] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:51:17,971] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_processing_workflow']) retrieved from /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:51:18,007] {logging_mixin.py:104} INFO - [2023-06-10 23:51:18,007] {dag.py:1824} INFO - Sync 1 DAGs
+[2023-06-10 23:51:18,037] {logging_mixin.py:104} INFO - [2023-06-10 23:51:18,037] {dag.py:2280} INFO - Setting next_dagrun for data_processing_workflow to 2023-06-01T00:00:00+00:00
+[2023-06-10 23:51:18,057] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/recog_dag.py took 0.139 seconds
+[2023-06-10 23:51:48,144] {scheduler_job.py:182} INFO - Started process (PID=176) to work on /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:51:48,146] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/recog_dag.py for tasks to queue
+[2023-06-10 23:51:48,148] {logging_mixin.py:104} INFO - [2023-06-10 23:51:48,148] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:51:48,171] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_processing_workflow']) retrieved from /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:51:48,193] {logging_mixin.py:104} INFO - [2023-06-10 23:51:48,193] {dag.py:1824} INFO - Sync 1 DAGs
+[2023-06-10 23:51:48,214] {logging_mixin.py:104} INFO - [2023-06-10 23:51:48,214] {dag.py:2280} INFO - Setting next_dagrun for data_processing_workflow to 2023-06-01T00:00:00+00:00
+[2023-06-10 23:51:48,229] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/recog_dag.py took 0.087 seconds
+[2023-06-10 23:52:18,366] {scheduler_job.py:182} INFO - Started process (PID=211) to work on /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:52:18,375] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/recog_dag.py for tasks to queue
+[2023-06-10 23:52:18,387] {logging_mixin.py:104} INFO - [2023-06-10 23:52:18,387] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:52:18,522] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_processing_workflow']) retrieved from /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:52:18,637] {logging_mixin.py:104} INFO - [2023-06-10 23:52:18,637] {dag.py:1824} INFO - Sync 1 DAGs
+[2023-06-10 23:52:18,798] {logging_mixin.py:104} INFO - [2023-06-10 23:52:18,797] {dag.py:2280} INFO - Setting next_dagrun for data_processing_workflow to 2023-06-10 00:00:00+00:00
+[2023-06-10 23:52:18,848] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/recog_dag.py took 0.497 seconds
+[2023-06-10 23:52:49,011] {scheduler_job.py:182} INFO - Started process (PID=258) to work on /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:52:49,013] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/recog_dag.py for tasks to queue
+[2023-06-10 23:52:49,014] {logging_mixin.py:104} INFO - [2023-06-10 23:52:49,014] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:52:49,034] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_processing_workflow']) retrieved from /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:52:49,052] {logging_mixin.py:104} INFO - [2023-06-10 23:52:49,052] {dag.py:1824} INFO - Sync 1 DAGs
+[2023-06-10 23:52:49,069] {logging_mixin.py:104} INFO - [2023-06-10 23:52:49,068] {dag.py:2280} INFO - Setting next_dagrun for data_processing_workflow to 2023-06-10 00:00:00+00:00
+[2023-06-10 23:52:49,082] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/recog_dag.py took 0.074 seconds
+[2023-06-10 23:53:19,159] {scheduler_job.py:182} INFO - Started process (PID=263) to work on /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:53:19,162] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/recog_dag.py for tasks to queue
+[2023-06-10 23:53:19,163] {logging_mixin.py:104} INFO - [2023-06-10 23:53:19,163] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:53:19,183] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_processing_workflow']) retrieved from /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:53:19,201] {logging_mixin.py:104} INFO - [2023-06-10 23:53:19,201] {dag.py:1824} INFO - Sync 1 DAGs
+[2023-06-10 23:53:19,221] {logging_mixin.py:104} INFO - [2023-06-10 23:53:19,221] {dag.py:2280} INFO - Setting next_dagrun for data_processing_workflow to 2023-06-10 00:00:00+00:00
+[2023-06-10 23:53:19,233] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/recog_dag.py took 0.077 seconds
+[2023-06-10 23:53:49,312] {scheduler_job.py:182} INFO - Started process (PID=268) to work on /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:53:49,314] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/recog_dag.py for tasks to queue
+[2023-06-10 23:53:49,315] {logging_mixin.py:104} INFO - [2023-06-10 23:53:49,315] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:53:49,335] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_processing_workflow']) retrieved from /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:53:49,353] {logging_mixin.py:104} INFO - [2023-06-10 23:53:49,353] {dag.py:1824} INFO - Sync 1 DAGs
+[2023-06-10 23:53:49,368] {logging_mixin.py:104} INFO - [2023-06-10 23:53:49,367] {dag.py:2280} INFO - Setting next_dagrun for data_processing_workflow to 2023-06-10 00:00:00+00:00
+[2023-06-10 23:53:49,379] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/recog_dag.py took 0.070 seconds
+[2023-06-10 23:54:19,455] {scheduler_job.py:182} INFO - Started process (PID=273) to work on /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:54:19,457] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/recog_dag.py for tasks to queue
+[2023-06-10 23:54:19,459] {logging_mixin.py:104} INFO - [2023-06-10 23:54:19,459] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:54:19,485] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_processing_workflow']) retrieved from /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:54:19,510] {logging_mixin.py:104} INFO - [2023-06-10 23:54:19,509] {dag.py:1824} INFO - Sync 1 DAGs
+[2023-06-10 23:54:19,529] {logging_mixin.py:104} INFO - [2023-06-10 23:54:19,529] {dag.py:2280} INFO - Setting next_dagrun for data_processing_workflow to 2023-06-10 00:00:00+00:00
+[2023-06-10 23:54:19,544] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/recog_dag.py took 0.092 seconds
+[2023-06-10 23:54:49,627] {scheduler_job.py:182} INFO - Started process (PID=278) to work on /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:54:49,629] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/recog_dag.py for tasks to queue
+[2023-06-10 23:54:49,631] {logging_mixin.py:104} INFO - [2023-06-10 23:54:49,631] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:54:49,651] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_processing_workflow']) retrieved from /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:54:49,669] {logging_mixin.py:104} INFO - [2023-06-10 23:54:49,669] {dag.py:1824} INFO - Sync 1 DAGs
+[2023-06-10 23:54:49,684] {logging_mixin.py:104} INFO - [2023-06-10 23:54:49,683] {dag.py:2280} INFO - Setting next_dagrun for data_processing_workflow to 2023-06-10 00:00:00+00:00
+[2023-06-10 23:54:49,695] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/recog_dag.py took 0.072 seconds
+[2023-06-10 23:55:19,770] {scheduler_job.py:182} INFO - Started process (PID=283) to work on /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:55:19,772] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/recog_dag.py for tasks to queue
+[2023-06-10 23:55:19,773] {logging_mixin.py:104} INFO - [2023-06-10 23:55:19,773] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:55:19,793] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_processing_workflow']) retrieved from /opt/airflow/dags/recog_dag.py
+[2023-06-10 23:55:19,815] {logging_mixin.py:104} INFO - [2023-06-10 23:55:19,815] {dag.py:1824} INFO - Sync 1 DAGs
+[2023-06-10 23:55:19,834] {logging_mixin.py:104} INFO - [2023-06-10 23:55:19,834] {dag.py:2280} INFO - Setting next_dagrun for data_processing_workflow to 2023-06-10 00:00:00+00:00
+[2023-06-10 23:55:19,851] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/recog_dag.py took 0.084 seconds
