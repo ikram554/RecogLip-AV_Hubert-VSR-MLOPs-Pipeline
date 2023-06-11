@@ -1,3 +1,5 @@
+# NOTE: These are test dags for submission as many small unit functions of data cleaning, data pre-processing and model training steps donot apply to our FYP project
+
 from datetime import datetime
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
