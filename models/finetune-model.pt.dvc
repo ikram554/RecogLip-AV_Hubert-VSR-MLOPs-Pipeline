@@ -1,0 +1,4 @@
+outs:
+- md5: 72f4c59275064b3645ffbaf4b482c98a
+  size: 1928063847
+  path: finetune-model.pt

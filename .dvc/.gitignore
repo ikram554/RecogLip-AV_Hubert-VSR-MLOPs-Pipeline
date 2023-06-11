@@ -1,0 +1,4 @@
+/config.local
+/tmp
+/cache
+/models/finetune-model.pt
