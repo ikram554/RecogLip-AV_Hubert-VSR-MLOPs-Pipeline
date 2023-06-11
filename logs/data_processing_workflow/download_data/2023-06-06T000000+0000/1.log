@@ -1,0 +1,23 @@
+[2023-06-10 23:52:14,662] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: data_processing_workflow.download_data 2023-06-06T00:00:00+00:00 [queued]>
+[2023-06-10 23:52:14,866] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: data_processing_workflow.download_data 2023-06-06T00:00:00+00:00 [queued]>
+[2023-06-10 23:52:14,868] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-10 23:52:14,869] {taskinstance.py:1069} INFO - Starting attempt 1 of 1
+[2023-06-10 23:52:14,871] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-10 23:52:14,940] {taskinstance.py:1089} INFO - Executing <Task(PythonOperator): download_data> on 2023-06-06T00:00:00+00:00
+[2023-06-10 23:52:14,979] {standard_task_runner.py:52} INFO - Started process 191 to run task
+[2023-06-10 23:52:15,005] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'data_processing_workflow', 'download_data', '2023-06-06T00:00:00+00:00', '--job-id', '5', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/recog_dag.py', '--cfg-path', '/tmp/tmpefph4wsb', '--error-file', '/tmp/tmpl3x7oyfh']
+[2023-06-10 23:52:15,053] {standard_task_runner.py:77} INFO - Job 5: Subtask download_data
+[2023-06-10 23:52:15,500] {logging_mixin.py:104} INFO - Running <TaskInstance: data_processing_workflow.download_data 2023-06-06T00:00:00+00:00 [running]> on host f2f91d7a1370
+[2023-06-10 23:52:15,810] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Ikram
+AIRFLOW_CTX_DAG_ID=data_processing_workflow
+AIRFLOW_CTX_TASK_ID=download_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-06T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-06-06T00:00:00+00:00
+[2023-06-10 23:52:15,812] {logging_mixin.py:104} INFO - Downloading data...
+[2023-06-10 23:52:15,820] {python.py:118} INFO - Done. Returned value was: None
+[2023-06-10 23:52:15,880] {taskinstance.py:1192} INFO - Marking task as SUCCESS. dag_id=data_processing_workflow, task_id=download_data, execution_date=20230606T000000, start_date=20230610T235214, end_date=20230610T235215
+[2023-06-10 23:52:16,040] {taskinstance.py:1246} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-06-10 23:52:16,108] {local_task_job.py:146} INFO - Task exited with return code 0

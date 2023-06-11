@@ -1,0 +1,7 @@
+stages:
+  predict_model:
+    cmd: python av_hubert.py
+    deps:
+      - models/finetune-model.pt
+    outs:
+      - results/prediction.txt
