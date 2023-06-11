@@ -6,7 +6,7 @@ Run these commands to create a docker image
 
 
 
-## Installation
+## Docker Installation
 
 ```
   docker build -t av_hubert .
